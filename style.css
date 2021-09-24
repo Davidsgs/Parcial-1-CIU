@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #05b4e9;
+}
+section {
+  width: 35vw;
+  margin: 0 auto;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: #00109e;
+  text-decoration: underline;
+}
+label {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+}
+.container {
+  text-align: center;
+  padding: 2rem 0;
+
+  border: 2px solid #626262;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  margin: 1rem auto;
+  text-align: center;
+}
+.logo img {
+  width: 23rem;
+}
+.doc,
+.pass,
+.login {
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.user,
+.password,
+.logBtn {
+  border-radius: 5px;
+  font-size: 2em;
+}
+.logBtn {
+  background-color: #00a0d0; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+}
+.logBtn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+.footer {
+  height: 12vh;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  color: #e0e0e0;
+  align-self: flex-end;
+  background-color: #626262;
+  width: 100%;
+}

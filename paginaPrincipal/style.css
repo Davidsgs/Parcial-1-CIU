@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+.card {
+  background-color: gray;
+}
+.logo {
+  background-color: #008cba;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.logo img {
+  margin: 1rem 0;
+  margin-left: 1rem;
+  width: 15rem;
+}
+.logo p {
+  margin: 0 1rem;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+.logOutBtn {
+  margin-right: 1rem;
+
+  background-color: #ff1414; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+}
+.logOutBtn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #ff1414;
+}
+.footer {
+  height: 12vh;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  color: #e0e0e0;
+  align-self: flex-end;
+  background-color: #626262;
+  width: 100%;
+}
+.pCardInfo{
+    font-size: 1.5em;
+}
+.descuento{
+    
+}
