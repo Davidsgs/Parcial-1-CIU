@@ -4,6 +4,8 @@ var boton = document.getElementById("boton");
 var usuarioNombre = usuario.value
 boton.addEventListener("click", () => {
   if (validarUsuario(usuario) && validarPassword(password)) {
+    let usuarioNombre = document.getElementById("user").value;
+    localStorage.setItem('nombre', usuarioNombre);
     window.location.href = "./paginaPrincipal/paginaPrincipal.html";
   }
 });
